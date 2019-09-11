@@ -1,0 +1,9 @@
+version: '2'
+options:
+  verbose: true
+syncs:
+  dev-sync:
+    src: './www'
+    sync_userid: '33'
+    sync_excludes: ['.git/', '.DS_Store']
+
